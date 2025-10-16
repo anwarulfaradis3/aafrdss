@@ -1,26 +1,22 @@
 body {
     background-color: #99ccff; /* Warna biru cerah */
     font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan muda */
-    color: #001a33; /* Warna teks utama (Biru Gelap) */
+    color: #191978; /* Warna teks utama (Biru Gelap) */
 }
 
 .kartu-profil {
-    /* SARAN PERBAIKAN 2a: Mengubah width tetap menjadi responsif */
-    width: 90%; 
-    max-width: 300px; 
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan */
+    width: 300px;
+    margin: 50px auto; /* 50px jaraj atas/bawah, auto menengahkan */
     padding: 20px;
     background-color: white;
-    /* KOREKSI KESALAHAN LOGIKA 1: Memperbaiki komentar */
-    border-radius: 15px; /* Membuat sudut kartu profil tumpul */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    text-align: center;
+    border-radius: 15px; /* Membuat gambar persegi menjadi melengkung */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*Efek Bayangan */
+    text-align: center; /* Menengahkan semua teks didalam kartu */
 }
 
 
 .kartu-profil img {
     width: 150px;
-    border-radius: 50%; /* Ini yang membuat gambar menjadi lingkaran penuh */
+    border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
-
 
