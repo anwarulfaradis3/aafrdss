@@ -1,4 +1,4 @@
-8body {
+body {
     background-color: #99ccff; /* Warna biru cerah */
     font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan muda */
     color: #001a33; /* Warna teks utama (Biru Gelap) */
@@ -10,12 +10,12 @@
     padding: 20px;
     background-color: white;
     border-radius: 15px; /* Membuat gambar persegi menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 
 
-.kartu-provil img {
+.kartu-profil img {
     width: 150px;
     border-radius: 50%; 
 }
