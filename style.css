@@ -5,11 +5,14 @@ body {
 }
 
 .kartu-profil {
-    width: 300px;
-    margin: 50px auto; /* 50px jaraj atas/bawah, auto menengahkan */
+    /* SARAN PERBAIKAN 2a: Mengubah width tetap menjadi responsif */
+    width: 90%; 
+    max-width: 300px; 
+    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan */
     padding: 20px;
     background-color: white;
-    border-radius: 15px; /* Membuat gambar persegi menjadi melengkung */
+    /* KOREKSI KESALAHAN LOGIKA 1: Memperbaiki komentar */
+    border-radius: 15px; /* Membuat sudut kartu profil tumpul */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
@@ -17,8 +20,7 @@ body {
 
 .kartu-profil img {
     width: 150px;
-    border-radius: 50%; 
+    border-radius: 50%; /* Ini yang membuat gambar menjadi lingkaran penuh */
 }
-
 
 
